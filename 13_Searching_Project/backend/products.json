@@ -1,0 +1,144 @@
+[
+  {
+    "id": 1,
+    "title": "Wooden Chair",
+    "description": "High-quality handcrafted wooden chair perfect for living rooms and offices.",
+    "category": "furniture",
+    "price": 129.99,
+    "rating": 4.2,
+    "stock": 40,
+    "thumbnail": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc",
+    "images": ["https://images.unsplash.com/photo-1555041469-a586c61ea9bc"]
+  },
+  {
+    "id": 2,
+    "title": "Modern Sofa",
+    "description": "Comfortable 3-seater modern sofa made with premium fabric.",
+    "category": "furniture",
+    "price": 499.99,
+    "rating": 4.5,
+    "stock": 12,
+    "thumbnail": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+    "images": ["https://images.unsplash.com/photo-1586023492125-27b2c045efd7"]
+  },
+  {
+    "id": 3,
+    "title": "Smart Watch",
+    "description": "Track your fitness, notifications, heart-rate and more.",
+    "category": "electronics",
+    "price": 89.99,
+    "rating": 4.3,
+    "stock": 60,
+    "thumbnail": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+    "images": ["https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"]
+  },
+
+  {
+    "id": 7,
+    "title": "Gaming Keyboard",
+    "description": "RGB mechanical keyboard for professional gaming.",
+    "category": "electronics",
+    "price": 79.99,
+    "rating": 4.8,
+    "stock": 30,
+    "thumbnail": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    "images": ["https://images.unsplash.com/photo-1517336714731-489689fd1ca8"]
+  },
+  {
+    "id": 8,
+    "title": "Headphones",
+    "description": "Noise-cancelling over-ear headphones with clear sound.",
+    "category": "electronics",
+    "price": 49.99,
+    "rating": 4.4,
+    "stock": 70,
+    "thumbnail": "https://images.unsplash.com/photo-1519677100203-a0e668c92439",
+    "images": ["https://images.unsplash.com/photo-1519677100203-a0e668c92439"]
+  },
+  {
+    "id": 9,
+    "title": "Sports Watch",
+    "description": "Waterproof watch suitable for swimming and sports.",
+    "category": "fashion",
+    "price": 74.99,
+    "rating": 4.6,
+    "stock": 45,
+    "thumbnail": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+    "images": ["https://images.unsplash.com/photo-1523275335684-37898b6baf30"]
+  },
+  {
+    "id": 10,
+    "title": "Coffee Mug",
+    "description": "Ceramic mug perfect for coffee lovers.",
+    "category": "kitchen",
+    "price": 14.99,
+    "rating": 4.5,
+    "stock": 120,
+    "thumbnail": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd",
+    "images": ["https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd"]
+  },
+  {
+    "id": 11,
+    "title": "Backpack",
+    "description": "Multi-purpose backpack ideal for school or travel.",
+    "category": "fashion",
+    "price": 29.99,
+    "thumbnail": "https://images.unsplash.com/photo-1522199710521-72d69614c702",
+    "images": ["https://images.unsplash.com/photo-1522199710521-72d69614c702"]
+  },
+  {
+    "id": 12,
+    "title": "Table Lamp",
+    "description": "Stylish LED table lamp for work desk.",
+    "category": "home",
+    "price": 22.99,
+    "thumbnail": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+    "images": ["https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"]
+  },
+  {
+    "id": 15,
+    "title": "Notebook",
+    "description": "Hardcover premium notebook.",
+    "category": "office",
+    "price": 9.99,
+    "thumbnail": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+    "images": ["https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"]
+  },
+
+  {
+    "id": 17,
+    "title": "Tripod Stand",
+    "description": "Adjustable aluminum tripod for cameras.",
+    "category": "electronics",
+    "price": 49.99,
+    "thumbnail": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
+    "images": ["https://images.unsplash.com/photo-1516035069371-29a1b244cc32"]
+  },
+  {
+    "id": 18,
+    "title": "Desk Organizer",
+    "description": "Keep your desk neat with this multi-compartment organizer.",
+    "category": "office",
+    "price": 12.99,
+    "thumbnail": "https://images.unsplash.com/photo-1503602642458-232111445657",
+    "images": ["https://images.unsplash.com/photo-1503602642458-232111445657"]
+  },
+  {
+    "id": 19,
+    "title": "Wall Clock",
+    "description": "Silent decorative wall clock for home or office.",
+    "category": "home",
+    "price": 27.99,
+    "thumbnail": "https://images.unsplash.com/photo-1525104885119-8806dd94ad58",
+    "images": ["https://images.unsplash.com/photo-1525104885119-8806dd94ad58"]
+  },
+  {
+    "id": 20,
+    "title": "Electric Kettle",
+    "description": "Fast-boiling electric kettle with auto shut-off.",
+    "category": "kitchen",
+    "price": 34.99,
+    "thumbnail": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2",
+    "images": ["https://images.unsplash.com/photo-1543163521-1bf539c55dd2"]
+  }
+]
