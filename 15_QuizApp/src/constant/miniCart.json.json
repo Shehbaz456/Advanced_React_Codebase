@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 50000
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "price": 25000
+    },
+    {
+      "id": 3,
+      "name": "Headphones",
+      "price": 2000
+    },
+    {
+      "id": 4,
+      "name": "Smartwatch",
+      "price": 5000
+    },
+    {
+      "id": 5,
+      "name": "Wireless Keyboard",
+      "price": 1500
+    },
+    {
+      "id": 6,
+      "name": "Gaming Mouse",
+      "price": 1200
+    },
+    {
+      "id": 7,
+      "name": "Bluetooth Speaker",
+      "price": 3000
+    },
+    {
+      "id": 8,
+      "name": "Monitor",
+      "price": 8000
+    },
+    {
+      "id": 9,
+      "name": "USB-C Charger",
+      "price": 900
+    },
+    {
+      "id": 10,
+      "name": "External Hard Drive",
+      "price": 4500
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "question": "React is ___?",
+      "options": ["Library", "Framework", "Language", "Runtime"],
+      "correct": 0
+    },
+    {
+      "question": "useState is used for?",
+      "options": ["Fetching", "Routing", "State", "Styling"],
+      "correct": 2
+    },
+    {
+      "question": "What is JSX?",
+      "options": [
+        "A CSS preprocessor",
+        "A JavaScript syntax extension",
+        "A React hook",
+        "A backend framework"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "React uses which type of DOM?",
+      "options": ["Real DOM", "Shadow DOM", "Virtual DOM", "Mini DOM"],
+      "correct": 2
+    },
+    {
+      "question": "Which hook is used for side effects?",
+      "options": ["useRef", "useEffect", "useState", "useMemo"],
+      "correct": 1
+    },
+    {
+      "question": "In React, data flows ___?",
+      "options": ["Both ways", "Top to Bottom", "Bottom to Top", "Sideways"],
+      "correct": 1
+    },
+    {
+      "question": "Which hook returns a memoized value?",
+      "options": ["useMemo", "useEffect", "useReducer", "useState"],
+      "correct": 0
+    },
+    {
+      "question": "Which hook stores mutable values?",
+      "options": ["useEffect", "useRef", "useMemo", "useState"],
+      "correct": 1
+    },
+    {
+      "question": "Which method is used to create components?",
+      "options": ["create()", "component()", "function or class", "build()"],
+      "correct": 2
+    },
+    {
+      "question": "What is the default port for a React app?",
+      "options": ["3000", "5000", "8000", "8080"],
+      "correct": 0
+    },
+    {
+      "question": "What does React StrictMode do?",
+      "options": [
+        "Prevents build errors",
+        "Finds unsafe lifecycle methods",
+        "Adds routing",
+        "Adds CSS features"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "useReducer is mainly used for?",
+      "options": ["Simple state", "Complex state logic", "CSS changes", "Routing"],
+      "correct": 1
+    },
+    {
+      "question": "Which hook is used for performance optimization?",
+      "options": ["useEffect", "useCallback", "useState", "useRef"],
+      "correct": 1
+    },
+    {
+      "question": "React Router is used for?",
+      "options": ["State management", "Styling", "Navigation", "Deployment"],
+      "correct": 2
+    },
+    {
+      "question": "Context API is used for?",
+      "options": [
+        "Handling routes",
+        "Avoiding prop drilling",
+        "Fetching data",
+        "Creating components"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which command creates a new React app?",
+      "options": [
+        "npm start react",
+        "npx create-react-app myApp",
+        "react new app",
+        "npm create react"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which file is the entry point of most React apps?",
+      "options": ["App.js", "index.html", "index.js", "main.js"],
+      "correct": 2
+    }
+  ]
+}

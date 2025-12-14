@@ -1,0 +1,135 @@
+{
+  "title": "React Basics Quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the main purpose of React?",
+      "options": [
+        "To style components",
+        "To handle backend logic",
+        "To build user interfaces",
+        "To manage databases"
+      ],
+      "answer": 2,
+      "explanation": "React is a JavaScript library used for building fast and interactive UIs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Which hook is used to manage state in a functional component?",
+      "options": [
+        "useEffect",
+        "useContext",
+        "useState",
+        "useRef"
+      ],
+      "answer": 2,
+      "explanation": "useState lets you add component state to functional components.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "What does JSX stand for?",
+      "options": [
+        "JavaScript XML",
+        "Java Syntax Extension",
+        "JSON XML",
+        "JavaScript Extension"
+      ],
+      "answer": 0,
+      "explanation": "JSX stands for JavaScript XML — it allows writing HTML in React.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Which hook runs after every render by default?",
+      "options": [
+        "useEffect",
+        "useMemo",
+        "useState",
+        "useCallback"
+      ],
+      "answer": 0,
+      "explanation": "useEffect runs after each render unless dependency array is provided.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "question": "Props in React are:",
+      "options": [
+        "Immutable",
+        "Mutable",
+        "Used to store local component data",
+        "Used only with class components"
+      ],
+      "answer": 0,
+      "explanation": "Props are read-only data passed from parent to child.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "question": "What is the correct way to pass a prop?",
+      "options": [
+        "<User name='John' />",
+        "<User {name='John'} />",
+        "<User name={John} />",
+        "<User name: 'John' />"
+      ],
+      "answer": 0,
+      "explanation": "JSX uses HTML-like syntax; props are passed like HTML attributes.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Which hook is used for performance optimization?",
+      "options": [
+        "useMemo",
+        "useState",
+        "useEffect",
+        "useReducer"
+      ],
+      "answer": 0,
+      "explanation": "useMemo memoizes expensive calculations to improve performance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "question": "Which method is used to update state in class components?",
+      "options": [
+        "this.updateState",
+        "this.setState",
+        "this.changeState",
+        "this.useState"
+      ],
+      "answer": 1,
+      "explanation": "Class components use setState() to update the state.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "question": "React uses which type of DOM?",
+      "options": [
+        "Real DOM",
+        "Shadow DOM",
+        "Virtual DOM",
+        "Dynamic DOM"
+      ],
+      "answer": 2,
+      "explanation": "React improves performance using Virtual DOM.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "What is lifting state up?",
+      "options": [
+        "Moving state from parent to child",
+        "Moving state from child to parent",
+        "Adding new state",
+        "Removing unused state"
+      ],
+      "answer": 1,
+      "explanation": "Lifting state up means sharing data by moving state to a common parent.",
+      "difficulty": "hard"
+    }
+  ]
+}
