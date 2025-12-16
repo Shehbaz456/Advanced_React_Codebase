@@ -1,5 +1,8 @@
+import { useContext } from "react"
+import ExpenseContext from "../context/ExpenseContext"
 
-function Filter({filter,setFilter}) {
+function Filter() {
+  const {filter,setFilter} = useContext(ExpenseContext);
   return (
     <div className="flex justify-center">
           <select

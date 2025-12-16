@@ -1,32 +1,19 @@
+import { useContext } from "react";
 import ExpenseForm from "./components/ExpenseForm";
 import ExpenseList from "./components/ExpenseList";
-import useFilter from "./hooks/useFilter";
 import Filter from "./components/Filter";
-import useExpenses from "./hooks/useExpenses";
+import ExpenseContext from "./context/ExpenseContext";
 
 function App() {
-  const INITIAL_BUDGET = 12000;
-
-  const {
-    expenses,
-    editId,
-    isEditing,
+  const { expenses,
     undoVisible,
     editingExpense,
-    deletedExpense,
-    remainingAmount,
-    addExpense,
-    saveEditedExpense,
-    editExpense,
-    deleteExpense,
-    undoDelete,
-  } = useExpenses({INITIAL_BUDGET});
-
-  const { filteredExpenses, filter, setFilter } = useFilter({ expenses });
+    deletedExpense, 
+    undoDelete} = useContext(ExpenseContext);
 
   console.log("exp", expenses);
   return (
-    <>
+    <> 
       <div>
         <h1 className="text-3xl font-bold text-black mt-5 text-center ">
           Expense Tracker
@@ -34,16 +21,11 @@ function App() {
       </div>
       <h3 className="text-xl m-4 text-center font-bold ">
         Total Budget money:{" "}
-        <span className="text-green-600">{INITIAL_BUDGET}</span>
+        <span className="text-green-600">12000</span>
       </h3>
       <div className="flex justify-center m-5"></div>
-      <ExpenseForm
-        key={editingExpense?.id || "new"}
-        isEditing={isEditing}
-        addExpense={addExpense}
-        saveEditedExpense={saveEditedExpense}
-        editingExpense={editingExpense}
-      />
+
+      <ExpenseForm key={editingExpense?.id || "new"} />
 
       {undoVisible && deletedExpense && (
         <div className="flex justify-center my-3">
@@ -62,16 +44,11 @@ function App() {
       <div className="flex justify-center m-4">
         <h2 className="text-xl  font-semibold min-w-5/12 ">Expenses</h2>
 
-        <Filter filter={filter} setFilter={setFilter} />
+        <Filter />
+        
       </div>
       <div className="flex justify-center  ">
-        <ExpenseList
-          remainingAmount={remainingAmount}
-          expenses={filteredExpenses}
-          editId={editId}
-          deleteExpense={deleteExpense}
-          editExpense={editExpense}
-        />
+        <ExpenseList />
       </div>
     </>
   );

@@ -1,11 +1,13 @@
+import { useContext } from "react";
 import formatDisplayDate from "../utils/formatDisplayDate";
-function ExpenseItem({exp,editId,editExpense,deleteExpense}) {
+import ExpenseContext from "../context/ExpenseContext";
+function ExpenseItem({exp}) {
+  const {editId,editExpense,deleteExpense} = useContext(ExpenseContext);
   return (
       <div key={exp.id} className="flex justify-between p-3 bg-gray-50 rounded-lg mb-3">
         <div>
           <p className="font-medium">{exp.title} </p>
           <p className="text-sm text-gray-500">category: {exp.category!=="" ? exp.category : "NA"}  <span className="text-sm text-gray-500" >( {formatDisplayDate(exp.date)} )</span> </p>
-          
         </div>
         <div className="flex items-center gap-3">  
           <p className="text-xl font-bold text-gray-700">₹ {exp.amountSpend} </p>

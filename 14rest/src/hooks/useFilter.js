@@ -5,7 +5,7 @@ function useFilter({expenses}) {
     const itemDate = new Date(item.date);
     const now = new Date();
 
-    if (filter === "Food" || filter === "Transport" || filter === "Shopping")
+    if (["Food","Transport","Shopping"].includes(filter))
       return item.category === filter;
 
     // THIS MONTH
@@ -29,4 +29,4 @@ function useFilter({expenses}) {
   return {filteredExpenses,filter,setFilter}
 }
 
-export default useFilter
+export default useFilter;
